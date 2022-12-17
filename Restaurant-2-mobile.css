@@ -1,0 +1,338 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: gray;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.row{
+    width: 100%;
+}
+.row::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.total-frame{
+    max-width: 1500px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.first-site{
+    background-color: white;
+    max-width: 800px;
+    text-align: center;
+    padding: 0;
+}
+
+/*header section design starts*/
+.head-line{
+    background-color: black;
+    color: lightsalmon;
+    text-align: center;
+}
+.logo{
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 25px;
+}
+.logo i{
+    font-size: 30px;
+}
+.nav-menu{
+}
+.nav-menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: .4s;
+}
+.nav-menu a:hover{
+    text-decoration:underline;
+    color: lightsalmon;
+}
+.calling{
+    margin: 20px auto;
+
+}
+.calling a{
+    color: lightsalmon;
+    list-style: none;
+    padding: 20px;
+    transition: .4s;
+}
+.calling a:hover{
+    font-size: 20px;
+    color: white;
+}
+/*header section design ends*/
+
+
+/*main section design starts*/
+/*main-point design starts*/
+
+.main-point{
+    background-color: black;
+    max-width: 900px;
+    height: 250px;
+    text-align: left;
+    color: white;
+    margin:0;
+    padding-left: 20px;
+}
+.main-image img{
+    margin: 0;
+    height: 400px;
+    width: 300px;
+}
+.name{
+    margin: 0;
+}
+.name h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.name p{
+    font-size: 15px;
+}
+.btns{
+    margin: 10px 0;
+}
+.btn-1{
+    background-color: lightsalmon;
+    border: none;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 5px 3px 5px black;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+}
+.btn-2{
+    background-color: black;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+.btn-2:hover{
+    background-color: white;
+    color: black;
+}
+
+.text-emoji{
+    margin:0;
+    display: flex;
+    max-width: 900px;
+    background-color: white;
+    color: gray;
+    text-shadow: 5px 3px 3px black;
+}
+.text-emoji p{
+    font-size: 60px;
+    padding: 20px;
+}
+.head-line{
+    padding-bottom: 30px;
+}
+/*fourth section design starts*/
+.fourth-section{
+    background-color: white;
+    margin: 40px;
+    padding: 30px;
+}
+.second-pic img{
+    height: 300px;
+    width: 300px;
+}
+.fourth-sec-text{
+    text-align: left;
+}
+.fourth-sec-text p{
+    font-size: 18px;
+}
+.fourth-sec-text h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.fourth-sec-text h3{
+    font-size: 30px;
+}
+.ek-dui-tin{
+    display: flex;
+}
+/*main section design ends*/
+
+
+
+/*footer section design starts*/
+.last-section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+/*footer section design ends*/
+
+
+
+/*second site design starts*/
+.second-site{
+    max-width: 700px;
+    text-align: center;
+    padding: 0;
+    background-color: white;
+
+}
+.second-site-first{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.two img{
+    height: 200px;
+    width: 200px;
+}
+.three img{
+    height: 280px;
+    width: 250px;
+}
+.second-site-second{
+    padding: 20px;
+}
+.card img{
+    height: 200px;
+    width: 150px;
+}
+
+.second-site-last{
+    padding: 10px;
+}
+.simple-text img{
+    width: 240px;
+    height: 160px;
+    margin: 0 20px;
+}
+
+/*second site design ends*/
+
+
+
+/* small devices (portrait tablets and large phones, 576px and up)*/
+@media (min-width: 576px){
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+}
+
+/* medium devices (portrait tablets and large phones, 768px and up)*/
+@media (min-width: 768px){
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+}
+
+/* large devices (portrait tablets and large phones, 992px and up)*/
+@media (min-width: 992px){
+
+.first-site{
+    margin: 0px;
+    box-shadow: 20px 0px 64px 0px black;
+    z-index: 1;
+}
+
+.nav-menu{
+    padding: 25px 0;
+}
+.nav-menu ul li{
+    font-size: 12px;
+    display: inline-block;
+}
+.logo{
+    padding: 20px;
+}
+
+.calling{
+    text-align: left;
+}
+.main-point{
+    position: relative;
+}
+.main-image img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.total-frame{
+    display: flex;
+}
+.second-site-second{
+    display: flex;
+    text-align: right;
+}
+.bold-text{
+    text-align: left;
+}
+.second-site-last{
+    display: flex;
+    text-align: left;
+}
+
+    .col-lg-1 {width: 8.33%;}
+    .col-lg-2 {width: 16.66%;}
+    .col-lg-3 {width: 25%;}
+    .col-lg-4 {width: 33.33%;}
+    .col-lg-5 {width: 41.66%;}
+    .col-lg-6 {width: 50%;}
+    .col-lg-7 {width: 58.33%;}
+    .col-lg-8 {width: 66.66%;}
+    .col-lg-9 {width: 75%;}
+    .col-lg-10 {width: 83.33%;}
+    .col-lg-11 {width: 91.66%;}
+    .col-lg-12 {width: 100%;}
+}
